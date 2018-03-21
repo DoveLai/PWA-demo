@@ -1,34 +1,27 @@
-WeUI - tailor-made for WeChat web service
+PWA - Progressive Web Apps
 ====
 
-[![Build Status](https://travis-ci.org/Tencent/weui.svg?branch=master)](https://travis-ci.org/Tencent/weui)
-[![npm version](https://img.shields.io/npm/v/weui.svg)](https://www.npmjs.org/package/weui)
 
-[中文版本](README_cn.md)
+
 
 ## Introduction
 
-WeUI is an WeChat-like UI framework officially designed by the WeChat Design Team, tailor-made for WeChat Web development, in order to improve and standardize the experience for WeChat users. Including components such as `button`、`cell`、`dialog`、 `progress`、 `toast`、`article`、`actionsheet`、`icon`.
+Progressive Web Apps 是 Google 提出的用前沿的 Web 技术为网页提供 App 般使用体验的一系列方案。这篇文章里我们来完成一个非常简单的 PWA 页面。
+一个 PWA 应用首先是一个网页, 可以通过 Web 技术编写出一个网页应用. 随后添加上 App Manifest 和 Service Worker 来实现 PWA 的安装和离线等功能。
 
 ## Mobile demo
 
-![https://weui.io](https://cloud.githubusercontent.com/assets/4652816/15662614/178efd46-2725-11e6-8952-09d7836e968d.png)
 
-[https://weui.io](https://weui.io)
-
-Legacy version: [https://weui.io/0.4.x](https://weui.io/0.4.x)
 
 ## Documentations
 
-- WeUI documentation [Wiki](https://github.com/Tencent/weui/wiki)
-- WeUI design reference [weui-design](https://github.com/weui/weui-design)
+
 
 ## Development
 
-- [WeUI for 小程序 (weui-wxss)](https://github.com/Tencent/weui-wxss/)
-- [WeUI for Work (企业微信版)](https://work.weixin.qq.com/api/doc#12146)
-- [weui.js](https://github.com/weui/weui.js/)
-- [react-weui](https://github.com/weui/react-weui/)
+- [Migrate-to-progressive-web-apps](https://codelabs.developers.google.com/codelabs/migrate-to-progressive-web-apps/index.html%3F%230)
+- [Sample](https://github.com/GoogleChrome/samples/tree/gh-pages/service-worker/basic)
+
 
 ## License
 
@@ -38,9 +31,9 @@ Please feel free to use and contribute to the development.
 
 ## Contribution
 
-If you have any ideas or suggestions to improve Wechat WeUI, welcome to submit an issue/pull request.
 
-## pwa-usage
+
+## PWA-usage
 
 In terminal,run below..
-$(npm bin)/http-server -c-l
+`$(npm bin)/http-server -c-l`

@@ -1,0 +1,16 @@
+{
+    "name": "Minimal app to try PWA",
+    "short_name": "Minimal PWA",
+    "display": "standalone",
+    "start_url": "/",
+    "theme_color": "#8888ff",
+    "background_color": "#aaaaff",
+    "icons": [
+        {
+            "src": "e.jpg",
+            "size": "256*256",
+            "type": "image/jpg"
+        }
+    ]
+
+}
